@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .table {
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    text-align:left;
+  }
+}
