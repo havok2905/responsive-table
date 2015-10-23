@@ -1,6 +1,6 @@
 {
   "name": "responsive-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Responsive table library in ES6",
   "main": "index.js",
   "scripts": {
