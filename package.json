@@ -1,6 +1,6 @@
 {
   "name": "better-tables",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,12 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "react": "^0.14.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babelify": "6.3.0",
     "browserify": "11.1.0",
     "gulp": "3.9.0",
-    "gulp-sass": "2.0.4",
-    "vinyl-source-stream": "1.1.0",
-    "mocha": "2.3.0",
-    "chai": "3.2.0 "
+    "gulp-uglify": "^1.4.2",
+    "vinyl-source-stream": "1.1.0"
   }
 }
