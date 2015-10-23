@@ -19,7 +19,7 @@ gulp.task('compress', ['js'], function() {
 });
 
 gulp.task('watch', ['compress'], function () {
-  gulp.watch('./app/**/*.js', ['js']);
+  gulp.watch('./src/**/*.js', ['js']);
 });
 
 gulp.task('default', ['watch']);
