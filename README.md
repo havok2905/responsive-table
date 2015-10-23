@@ -30,6 +30,44 @@ new ResponsiveTable.TableComponentController({
 });
 ```
 
+```html
+<div id='table'>
+  <table>
+    <thead>
+      <tr>
+        <th scope='col'>header 1</th>
+        <th scope='col'>header 2</th>
+        <th scope='col'>header 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+      </tr>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+      </tr>
+      <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>foot 1</td>
+        <td>foot 2</td>
+        <td>foot 3</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+```
+
 ## TableComponentViews
 We can use the view module on it's own like so.
 
