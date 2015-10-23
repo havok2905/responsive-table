@@ -9,5 +9,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
 }
